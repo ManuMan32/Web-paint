@@ -1,0 +1,43 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+#screen {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	height: 100vh;
+	background-image: url("background.jpg");
+	background-size: cover;
+}
+nav {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 50%;
+	height: 80px;
+	margin-bottom: 20px;
+	background-color: #aaa;
+	border-radius: 40px;
+}
+#line-color {
+	margin: 0 30px;
+	flex: 1;
+}
+#line-width {
+	margin: 0 20px;
+	flex: 3;
+	accent-color: #555;
+}
+#paint {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+canvas {
+	border: 2px solid #666;
+	background-color: #fff;
+}
